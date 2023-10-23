@@ -69,7 +69,6 @@
     .form {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .input-group {
@@ -84,6 +83,8 @@
         border: 1px solid #919BA6;
         margin-right: 5px;
         text-align: center;
+        font-size: 28px;
+        color: #919BA6;
     }
 
     .form__btn {
@@ -99,7 +100,8 @@
     }
 
     .footer__text {
-        width: 300px;
+        margin: 15px auto;
+        width: 250px;
         font-size: 14px;
         color: #626C77;
         text-align: center;
@@ -110,7 +112,7 @@
     }
 
     .check {
-        margin-left: 12px;
+        margin-left: 10px;
     }
 
     .seconds {
